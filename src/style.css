@@ -1,0 +1,68 @@
+/* Reset default margin and padding for all elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling to center content and set a background color */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #cecb44; /* Light blue background for the page */
+    font-family: 'Arial', sans-serif; /* Consistent font family for the whole page */
+}
+
+/* Styling for the testimonials card */
+.testimonails {
+    text-align: center;
+    background-color: #fcf700; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    padding: 40px; /* Padding inside the card */
+    width: 100%; /* Make the card responsive */
+    max-width: 600px; /* Set a maximum width for larger screens */
+    margin: 20px auto; /* Center the card horizontally with margin */
+}
+
+/* Styling for the quote text */
+.testimonials-quote {
+    font-size: 1.5em; /* Larger text for emphasis */
+    font-style: italic; /* Italicize the quote */
+    color: #333333; /* Dark text color for readability */
+    margin-bottom: 20px; /* Space below the quote */
+}
+
+/* Styling for the author's name */
+.testimonials-author {
+    font-size: 1.2em; /* Slightly larger text for the author's name */
+    font-weight: bold; /* Bold text for emphasis */
+    color: #555555; /* Slightly lighter color than the quote for contrast */
+    margin-bottom: 20px; /* Space below the author’s name */
+}
+
+/* Navigation buttons styling */
+.nav {
+    display: flex; /* Flexbox layout for navigation buttons */
+    justify-content: space-between; /* Space buttons evenly */
+    margin-top: 20px; /* Space above the buttons */
+}
+
+/* Styling for individual navigation buttons */
+.nav button {
+    padding: 10px 20px; /* Add padding for button size */
+    font-size: 1em; /* Font size for readability */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for the button */
+    background-color: #007bff; /* Primary button color */
+    color: white; /* White text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Hover effect for navigation buttons */
+.nav button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
